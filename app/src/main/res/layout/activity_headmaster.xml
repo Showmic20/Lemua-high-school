@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".headmaster">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A6F8A9"
+            app:title=" Headmaster"
+            app:titleTextColor="@color/black"
+            app:titleMarginStart="10dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/headtv1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/headmasterbutton"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="বর্তমান প্রধান শিক্ষক"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>
+    <TextView
+        android:onClick="praktonheadmaster"
+        android:id="@+id/headtv2"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/headmasterbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="প্রাক্তন প্রধান শিক্ষক"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>
+
+
+</LinearLayout>

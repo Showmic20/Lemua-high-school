@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".classroutinelist">
+    class 6 start<TextView
+
+        android:id="@+id/headtv1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="৬ষ্ঠ শ্রেনী"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>class 6 end
+    <TextView
+
+        android:id="@+id/headtv2"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="৭ম শ্রেনী"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:padding="10dp"/>class 7
+   8 start <TextView
+        android:id="@+id/eight"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="৮ম শ্রেনী"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>class 8
+    9 start<TextView
+android:onClick="class9"
+        android:id="@+id/nineid"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="৯ম শ্রেনী"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>class 9
+    new 10 start<TextView
+
+       android:onClick="classtennew"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="১০ম শ্রেনী (নতুন)"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>class10 new
+    10 <TextView
+android:onClick="classtenold"
+        android:id="@+id/oldtenid"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="১০ম শ্রেনী"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>class 10
+
+
+
+</LinearLayout>

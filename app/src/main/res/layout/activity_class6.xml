@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".class6">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/skyblue"
+            app:title="Lemua High  School"
+            app:titleMarginStart="10dp"
+            app:titleTextColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+
+android:onClick="routine"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="ক্লাস রুটিন"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sixcolour"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="বই সমূহ"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".siteslink">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="410dp"
+            android:layout_height="800dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="15"
+            android:columnOrderPreserved="false"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            maddhokik board
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/callcardview"
+                android:layout_width="370dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="shikkhaboard"
+                android:outlineSpotShadowColor="#FFEB3B"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/calltext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="মাধ্যমিক শিক্ষা বোর্ড"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="(ওয়েভসাইটে প্রবেশ করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            comilla board
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="370dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="cumillaboard"
+                android:outlineSpotShadowColor="#FFEB3B"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="কুমিল্লা শিক্ষা বোর্ড"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="(ওয়েভসাইটে প্রবেশ করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            lemua high fb
+
+            <androidx.cardview.widget.CardView
+                android:onClick="fblink"
+                android:id="@+id/fbcv"
+                android:layout_width="370dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:outlineSpotShadowColor="@color/purple_500"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/fblogo_round" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text=" লেমুয়া উচ্চ বিদ্যলয়"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/fbtv2"
+                            android:layout_width="234dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="  (আইডিতে প্রবেশ করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:onClick="youtubelink"
+                android:layout_width="370dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+               android:layout_marginTop="15dp"
+                android:outlineSpotShadowColor="@color/red"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="5dp"
+                        android:src="@drawable/youtubelogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="70dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text=" লেমুয়া উচ্চ বিদ্যলয়"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="234dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+android:layout_marginLeft="30dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="  (চ্যানেলে প্রবেশ করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:onClick="goruplink"
+
+                android:layout_width="370dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:outlineSpotShadowColor="@color/purple_500"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/fblogo_round" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="এক্স স্টুডেন্ট ফোরাম "
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="234dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="  (গ্রুপ এর  জয়েন করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

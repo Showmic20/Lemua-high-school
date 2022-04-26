@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booklist9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/skyblue"
+                app:title="Lemua High  School"
+                app:titleMarginStart="10dp"
+                app:titleTextColor="@color/white"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:onClick="bangla1st"
+            android:src="@drawable/tenbangla"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>1
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenshohopat"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>2
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/english1st"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>3
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenenglish2nd"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>4
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenmath"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>5
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/physics"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>6
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/chemisty"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>7
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/biology"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>8
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/highermath"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>9
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbebsha"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>10
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbishbiggan"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>11
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenporthoniti"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>12
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenpouroniti"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>13
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tengayestho"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>14
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbiddosovvota"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>15
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenvugol"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>16
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbissoporicoy"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>17
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tentottho"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>18
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbiggan"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>19
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenrochona"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>20
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tensaririk"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>21
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tencareer"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>22
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenkrishi"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>23
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+android:src="@drawable/tencarukaru"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>24
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+
+        <ImageView
+            android:src="@drawable/tenbangla2"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="280dp"/>25
+        <TextView
+            android:shadowColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:text="(বই ডাউনলোড করতে ছবিতে ক্লিক করুন)"/>
+    </LinearLayout>
+
+</ScrollView>

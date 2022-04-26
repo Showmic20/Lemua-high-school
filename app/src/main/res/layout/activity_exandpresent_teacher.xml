@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExandpresentTeacher">
+    <TextView
+        android:onClick="bortomanteacher"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teachersbutton"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="বর্তমান শিক্ষক বৃন্দ"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>
+    <TextView
+        android:onClick="praktonteacher"
+        android:id="@+id/headtv2"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teachersbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:text="প্রাক্তন শিক্ষক বৃন্দ"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>
+
+</LinearLayout>

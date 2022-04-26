@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        android:id="@+id/lottie"
+        android:layout_marginTop="180dp"
+        app:lottie_rawRes="@raw/main"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        android:id="@+id/lottie2"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome"/>
+
+
+    <TextView
+        android:id="@+id/textid"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/arial"
+        android:text="To"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/orenge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textid2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:fontFamily="@font/arial"
+        android:text="Lemua High School"
+        android:textColor="@color/skyblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
