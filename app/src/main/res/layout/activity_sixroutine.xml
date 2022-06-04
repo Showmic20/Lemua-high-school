@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".sixroutine">
-    <com.jsibbold.zoomage.ZoomageView
 
+    <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/classroutine"

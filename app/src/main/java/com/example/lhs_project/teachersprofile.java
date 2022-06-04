@@ -31,10 +31,7 @@ public class teachersprofile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teachersprofile);
-        getSupportActionBar().setTitle("Ex Head Teacher");
-        cardView = findViewById(R.id.harekrishnacard);
-        dialog = new Dialog(this);
-        textView = findViewById(R.id.mastext);
+
 
     }
 
@@ -125,4 +122,6 @@ public void harekrishnamakecall(){
         }
     }
 
+    public void goback(View view) {finish();
+    }
 }

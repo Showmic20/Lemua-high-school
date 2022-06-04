@@ -21,8 +21,13 @@ public class class9 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void routine(View view) {
-        Intent intent = new Intent(class9.this ,sixroutine.class);
+    public void routine9(View view) {
+        Intent intent = new Intent(class9.this ,nineroutine.class);
         startActivity(intent);
     }
+
+    public void agoback(View view) {finish();
+    }
+
+
 }

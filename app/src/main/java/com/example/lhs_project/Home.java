@@ -12,6 +12,7 @@ import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -26,6 +27,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -38,12 +40,54 @@ public class Home extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+    Dialog dialog;
 
+     LottieAnimationView animationView ;
+     LottieAnimationView animationView2 ;
+
+     LottieAnimationView animationView4 ;
+     LottieAnimationView animationView5;
+    LottieAnimationView animationView6;
+    LottieAnimationView animationView7 ;
+    LottieAnimationView animationView8;
+    LottieAnimationView animationView9 ;
+    LottieAnimationView animationView10;
     private Handler slidehandler = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        dialog = new Dialog(this);
         setContentView(R.layout.activity_home);
+animationView=findViewById(R.id.animation_view);
+        animationView2=findViewById(R.id.animation_view2);
+
+        animationView4=findViewById(R.id.animation_view4);
+        animationView5=findViewById(R.id.animation_view5);
+        animationView6=findViewById(R.id.animation_view6);
+        animationView7=findViewById(R.id.animation_view7);
+        animationView8=findViewById(R.id.animation_view8);
+        animationView9=findViewById(R.id.animation_view9);
+        animationView10=findViewById(R.id.animation_view10);
+
+        animationView.isHardwareAccelerated();
+        animationView.enableMergePathsForKitKatAndAbove(true);
+        animationView2.isHardwareAccelerated();
+        animationView2.enableMergePathsForKitKatAndAbove(true);
+
+        animationView4.isHardwareAccelerated();
+        animationView4.enableMergePathsForKitKatAndAbove(true);
+        animationView5.isHardwareAccelerated();
+        animationView5.enableMergePathsForKitKatAndAbove(true);
+        animationView6.isHardwareAccelerated();
+        animationView6.enableMergePathsForKitKatAndAbove(true);
+        animationView7.isHardwareAccelerated();
+        animationView7.enableMergePathsForKitKatAndAbove(true);
+        animationView8.isHardwareAccelerated();
+        animationView8.enableMergePathsForKitKatAndAbove(true);
+        animationView9.isHardwareAccelerated();
+        animationView9.enableMergePathsForKitKatAndAbove(true);
+        animationView10.isHardwareAccelerated();
+        animationView10.enableMergePathsForKitKatAndAbove(true);
 
         getWindow().setStatusBarColor(ContextCompat.getColor(Home.this,R.color.skyblue));
         drawerLayout = findViewById(R.id.Drawer1);
@@ -92,7 +136,9 @@ navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigation
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==R.id.menu1){
-            Toast.makeText(getApplication(),"about us",Toast.LENGTH_SHORT).show();
+            dialog.setContentView(R.layout.activity_aboutus);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.Transparent)));
+          dialog.show();
             return true;
         }
         if(item.getItemId()==R.id.menu2){
@@ -192,7 +238,7 @@ navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigation
     }
 
     public void photogellary(View view) {
-        Intent intent = new Intent(Home.this,gellary.class);
+        Intent intent = new Intent(Home.this,batchlist.class);
         startActivity(intent);
     }
 
@@ -212,4 +258,19 @@ navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigation
             viewPager2.setCurrentItem(viewPager2.getCurrentItem()+1);
         }
     };
+
+    public void assistantheadmaster(View view) {
+        Intent it = new Intent(Home.this,assistanthead.class);
+        startActivity(it);
+    }
+
+    public void emplye(View view) {
+        Intent it = new Intent(Home.this,employe.class);
+        startActivity(it);
+    }
+
+    public void ogranization(View view) {
+        Intent it = new Intent(Home.this,organization.class);
+        startActivity(it);
+    }
 }

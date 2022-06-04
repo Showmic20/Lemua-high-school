@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+    back with title bar <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:background="#66B3AC"
+android:orientation="horizontal">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/back_arrow"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="10dp"
+    android:onClick="artsgo"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginLeft="85dp"
+    android:gravity="center_vertical"
+    android:fontFamily="@font/kalpurush"
+    android:shadowColor="@color/black"
+    android:text= "মানবিক বিভাগ"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:textSize="25sp"
+    /></LinearLayout>back with title bar
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:lineSpacingExtra="2dp"
+                android:text="সাধারণত যাদের প্রগতিশীল ধারায় ক্যারিয়ার গঠনের কথা না ভেবে স্বাধীনচেতা হয়ে নিজের ভবিষ্যৎ কর্মক্ষেত্র গঠনের চিন্তা করে তারা যে বিভাগ বেছে নেয় তাই, মানবিক বিভাগ নামে পরিচিত।\nমানবিক বা আর্টসে পড়ে যেসকল চাকরী পাওয়া যাবেঃ\n মানবিক বা আর্টসের প্রধান বিষয় আইন বা ল। মানবিকে একমাত্র প্রফেশনাল বিষয় আইন। একমাত্র আইনে পড়েই আপনি নিশ্চিত চাকরীর নিশ্চয়তা পাবেন। আর দ্বিতীয় কোন বিষয় থাকলে সেটা ইংরেজি। ইংরেজি নিয়ে পড়লে আপনি বিসিএস পরীক্ষায় কিছু এডভান্টেজ পাবেন। তৃতীয় বিষয় পাবলিক এডমিনিস্ট্রেশন। এখন অনেকেই ভাবছে আমি ইকোনোমিকস বা অর্থনীতির কথা কেন বলছিনা। আসলে বাংলাদেশে অর্থনীতি বিষয়ের জনপ্রিয়তা বাড়ে ডঃ ইউনুছ নোবেল পাওয়ার পর!! ইউনুস নোবেল পাওয়ার আগে অর্থনীতিকে কেউ এতটা দাম দিত না। অনেকেই ভাবে ইকোনমিকস পড়ে ব্যাংকে চাকরি পাওয়া যায়। আসলে ব্যাংকের সাথে ইকোনমিকস এর কোন সম্পর্ক নেই। ডঃমোহাম্মদ ইউনুস নোবেল পাওয়ার পর, গ্রামীণ ব্যাংকে ইকোনমিকস ডিপার্টমেন্ট এর স্টুডেন্টদের জন্য বিশাল সুযোগ সৃষ্টি করেছিল। কিন্তু পরবর্তীতে গ্রামীণ ব্যাংকের দেখাদেখি অন্যান্য ব্যাংকগুলো ইকোনোমিক ডিপার্টমেন্ট অগ্রাধিকার দেয়া শুরু করে। বাস্তবিক অর্থে ইকোনোমিকস ডিপার্টমেন্ট যেসকল সিলেবাস পড়ানো হয় তা ব্যাংকে কাজে কোন ভূমিকা রাখেনা। যে স্টুডেন্টের জীবকে ২৫ ভাগ সময় কাটে হিসেবের ঘর কাটতে কাটতে, ২৫ ভাগ কাটে ক্যালকুলেটর চাপতে চাপতে, বাকী ৩০ ভাগ কাটে হিসেব মিলেনি হিসাব মিলেনে বলতে বলতে!! আর বাকী ২০ ভাগ সময় কাটে হিসেবের গড়মিল মিলাতে মিলাতে!!!! আপনি নিশ্চই বুঝতে পেরেছেন,আমি কোন ডিপার্টমেন্ট এর কথা বলছি। আমি হিসাববিজ্ঞান বিভাগের কথা বলছি। আর অর্থনীতি ডিপার্টমেন্ট হাতেগোনা কিছু অংক করেই তারা ব্যাংকের চাকরির জন্য যোগ্য মনে করে। বাংলাদেশের সকল ব্যাংকে যদি বিবিএ বা কমার্সের স্টুডেন্টদের অগ্রাধিকার দেয়া হতো তাহলে আজ ব্যাংক খাতে এই অচালাবস্থার সৃষ্টি হতোনা।
+যতই লাফালাফি করুক না কেন,ইকনোমিকস ডিপার্টমেন্ট এ পড়ে বিসিএস ছাড়া কোন গতি নেই।
+তার মানে আপনার লক্ষ যদি থাকে কোন স্কুল কলেজের শিক্ষকতা করা বা বিসিএস/সরকারি চাকরি করা,তবে অবশ্যই মানবিক নিয়ে পড়তে পারেন। \n
+যাদের মানবিক নিয়ে পড়া উচিৎ নয়ঃ\n
+(০১) আপনার ইচ্ছে যদি থাকে ব্যাংকে চাকরী করা তাহলে মানবিকে না পড়ে কমার্সে পড়ার চেস্টা করুন।\n
+
+(০২) আপনার যদি ভালো বেসরকারি জব করার টার্গেট করে থাকেন,তাহলে অবশ্যই আর্টস বা মানবিকে পড়া উচিৎ না।\n
+
+(০৩) আপনার যদি ইচ্ছে থাকে উচ্চ বেতনে বেসরকারি চাকরি করা,তবে আপনার মানবিকে পড়া উচিৎ না। কারন মাববিকে পড়ে, মামা-কাকা ছাড়া বেসরকারি জব পাওয়া কস্টকর।\n
+তথ্যসূত্র - অনলাইন ।
+"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

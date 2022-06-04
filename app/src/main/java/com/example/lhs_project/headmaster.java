@@ -25,4 +25,14 @@ public class headmaster extends AppCompatActivity {
         Intent intent = new Intent(headmaster.this,teachersprofile.class);
         startActivity(intent);
     }
+
+    public void goback(View view) {finish();
+    }
+
+    public void presenthead(View view) {
+        Intent intent = new Intent(headmaster.this,PresentHeadmaster.class);
+        startActivity(intent);
+    }
+
+
 }

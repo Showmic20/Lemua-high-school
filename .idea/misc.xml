@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/6colour.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/assisheadmasterbutton.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/batchfoundbutton.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/eightcolour.xml" value="0.10885416666666667" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/ninecolour.xml" value="0.10885416666666667" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/sevencolour.xml" value="0.10885416666666667" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/ten.xml" value="0.10885416666666667" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable-v24/tenold.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable/back_arrow.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable/bar.xml" value="0.1640625" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable/headmasterbutton.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable/headpopup.xml" value="0.22552083333333334" />
@@ -20,42 +23,132 @@
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/drawable/teachersbutton.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/font/font.xml" value="0.1925925925925926" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/All_tacher_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_aboutus.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_abulkashem_popup.xml" value="0.33" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_all_teacher_profile.xml" value="0.22" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_assistanthead.xml" value="0.209375" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_batchlist.xml" value="0.14479166666666668" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_booklist9.xml" value="0.11840942562592047" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_all_teacher_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_arts.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_arunpopup.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_assistanthead.xml" value="0.22" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_batch00.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_batchlist.xml" value="0.19382835101253615" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_booklist9.xml" value="0.22" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_borhan_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_brojogopal_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class10new.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class10old.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class6.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class6booklist.xml" value="0.21" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class7.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class8.xml" value="0.14479166666666668" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class9.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_class9.xml" value="0.21" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_classroutinelist.xml" value="0.18" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_commarce.xml" value="0.18" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_debateclub.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_eightbooklist.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_eightroutine.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_employe.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_ex_teachers.xml" value="0.33" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_exandpresent_teacher.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_feroz_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_firoza_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen00.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen01.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen02.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen03.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen04.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen06.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen07.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen08.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen09.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen10.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen11.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen12.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen13.xml" value="0.1" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen14.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen15.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen16.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen17.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen18.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen20.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen21.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen91.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen93.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen94.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen97.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_fullscreen99.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery00.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery01.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery02.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery03.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery04.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery06.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery08.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery09.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery10.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery11.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery12.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery13.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery14.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery15.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery16.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery17.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery19.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery20.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery2000.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery21.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery91.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery93.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery94.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery97.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery98.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gallery99.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_galley07.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gellary.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gias_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_gopal_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_headmaster.xml" value="0.33" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_home.xml" value="0.306640625" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_home.xml" value="0.25868725868725867" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_hujru_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_ibrahim_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_ictyausuf_popup.xml" value="0.33" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_ictyausuf_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_ismail_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_jasim_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_kamal_popup.xml" value="0.4272930648769575" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_karnurnahar_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_main.xml" value="0.37559808612440193" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_main2.xml" value="0.1953125" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_maps.xml" value="0.33" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_navigationbar.xml" value="0.18" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_newtenroutine.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_nijam_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_nineroutine.xml" value="0.1953125" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_organization.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_passis_head.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_popup.xml" value="0.33" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_popup1.xml" value="0.3480392156862745" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_science.xml" value="0.2722222222222222" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_section.xml" value="0.22240802675585283" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_present_headmaster.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_prodip_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_redcresent.xml" value="0.33" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_science.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_scout.xml" value="0.22" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_section.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_sevenbooklist.xml" value="0.22" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_sevenroutine.xml" value="0.209375" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_shahedalipopup.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_sikha_popup.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_siteslink.xml" value="0.25" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_sixroutine.xml" value="0.209375" />
-        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_teachersprofile.xml" value="0.25" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_teachersprofile.xml" value="0.4225663716814159" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/activity_tenroutine.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/all_tacher_profile.xml" value="0.2233502538071066" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/ictyousufpopupimage.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/imageofhead.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/kashempopupimage.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/nav_hader.xml" value="0.33" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/science.xml" value="0.1" />
+        <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/sevenroutine.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/layout/slide_item.xml" value="0.209375" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/menu/menubar.xml" value="0.15208333333333332" />
         <entry key="..\:/Users/Swarup/AndroidStudioProjects/LHS_Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20260416666666667" />

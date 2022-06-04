@@ -10,7 +10,32 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        back with title bar <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/skyblue"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_arrow"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="agoback"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/kalpurush"
+            android:shadowColor="@color/black"
+            android:text="সাইটসমূহ"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            /></LinearLayout>back with title bar
         <GridLayout
             android:layout_width="410dp"
             android:layout_height="800dp"
@@ -24,8 +49,8 @@
             maddhokik board
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/callcardview"
-                android:layout_width="370dp"
+
+                android:layout_width="320dp"
                 android:layout_height="63dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -88,7 +113,7 @@
             comilla board
 
             <androidx.cardview.widget.CardView
-                android:layout_width="370dp"
+                android:layout_width="320dp"
                 android:layout_height="63dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
@@ -148,22 +173,274 @@
 
 
             </androidx.cardview.widget.CardView>
-            lemua high fb
-
+            institution result
             <androidx.cardview.widget.CardView
-                android:onClick="fblink"
-                android:id="@+id/fbcv"
-                android:layout_width="370dp"
+                android:layout_width="320dp"
                 android:layout_height="63dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:outlineSpotShadowColor="@color/purple_500"
+                android:onClick="instituteresult"
+                android:outlineSpotShadowColor="#FFEB3B"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="         প্রতিষ্ঠানের রেজাল্ট"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="      (রেজাল্ট দেখতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            ssc result
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="result"
+                android:outlineSpotShadowColor="#FFEB3B"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="জে.এস.সি অথবা এস.এস.সি রেজাল্ট"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="      (রেজাল্ট দেখতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            xi admission
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="xiadmission"
+                android:outlineSpotShadowColor="#37FF00"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="একাদশ শ্রেণির ভর্তির আবেদন"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="   (ভর্তির আবেদনের জন্য ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            technical
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="technicaladmission"
+                android:outlineSpotShadowColor="#37FF00"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:src="@drawable/govtlogo" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="কারিগরি শিক্ষায় ভর্তির আবেদন"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="   (ভর্তির আবেদনের জন্য ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            lemua high fb
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fbcv"
+                android:layout_width="320dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="fblink"
+                android:outlineSpotShadowColor="#0037FF"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
                     android:layout_height="63dp"
                     android:orientation="horizontal">
 
@@ -203,8 +480,8 @@
                             android:id="@+id/fbtv2"
                             android:layout_width="234dp"
                             android:layout_height="20dp"
+                            android:layout_marginLeft="20dp"
                             android:layout_marginTop="5dp"
-android:layout_marginLeft="20dp"
                             android:fontFamily="@font/kalpurush"
                             android:text="  (আইডিতে প্রবেশ করতে ক্লিক করুন)" />
 
@@ -214,19 +491,86 @@ android:layout_marginLeft="20dp"
 
             </androidx.cardview.widget.CardView>
 
+            group link
+
             <androidx.cardview.widget.CardView
-                android:onClick="youtubelink"
-                android:layout_width="370dp"
+                android:layout_width="320dp"
+
                 android:layout_height="63dp"
                 android:layout_marginLeft="10dp"
-               android:layout_marginTop="15dp"
+                android:layout_marginTop="15dp"
+                android:onClick="goruplink"
+                android:outlineSpotShadowColor="#0037FF"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="53dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/fblogo_round" />
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="240dp"
+                            android:layout_height="30dp"
+
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="এক্স স্টুডেন্ট ফোরাম "
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="234dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/kalpurush"
+                            android:text="  (গ্রুপ এর  জয়েন করতে ক্লিক করুন)" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            youtube link
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="youtubelink"
                 android:outlineSpotShadowColor="@color/red"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
                 <LinearLayout
-                    android:layout_width="330dp"
+                    android:layout_width="320dp"
                     android:layout_height="63dp"
                     android:orientation="horizontal">
 
@@ -267,8 +611,8 @@ android:layout_marginLeft="20dp"
 
                             android:layout_width="234dp"
                             android:layout_height="20dp"
+                            android:layout_marginLeft="30dp"
                             android:layout_marginTop="5dp"
-android:layout_marginLeft="30dp"
                             android:fontFamily="@font/kalpurush"
                             android:text="  (চ্যানেলে প্রবেশ করতে ক্লিক করুন)" />
 
@@ -277,70 +621,6 @@ android:layout_marginLeft="30dp"
 
 
             </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:onClick="goruplink"
-
-                android:layout_width="370dp"
-                android:layout_height="63dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
-                android:outlineSpotShadowColor="@color/purple_500"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="330dp"
-                    android:layout_height="63dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="53dp"
-                        android:layout_height="53dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
-                        android:src="@mipmap/fblogo_round" />
-
-                    <LinearLayout
-                        android:layout_width="250dp"
-                        android:layout_height="60dp"
-                        android:orientation="vertical">
-
-                        <LinearLayout
-                            android:layout_width="240dp"
-                            android:layout_height="30dp"
-
-                            android:orientation="horizontal">
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="75dp"
-                                android:layout_marginTop="7dp"
-                                android:fontFamily="@font/kalpurush"
-                                android:text="এক্স স্টুডেন্ট ফোরাম "
-                                android:textColor="@color/black"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-                        <TextView
-
-                            android:layout_width="234dp"
-                            android:layout_height="20dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginLeft="20dp"
-                            android:fontFamily="@font/kalpurush"
-                            android:text="  (গ্রুপ এর  জয়েন করতে ক্লিক করুন)" />
-
-                    </LinearLayout>
-                </LinearLayout>
-
-
-            </androidx.cardview.widget.CardView>
-
         </GridLayout>
 
 

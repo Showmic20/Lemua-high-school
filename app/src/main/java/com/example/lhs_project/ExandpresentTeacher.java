@@ -19,4 +19,12 @@ Intent it = new Intent(ExandpresentTeacher.this,all_teacher_profile.class);
 startActivity(it);
 
     }
+
+    public void agoback(View view) {finish();
+    }
+
+    public void exteacher(View view) {
+        Intent it = new Intent(ExandpresentTeacher.this,Ex_teachers.class);
+        startActivity(it);
+    }
 }

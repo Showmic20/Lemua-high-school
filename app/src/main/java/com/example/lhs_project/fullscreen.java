@@ -12,7 +12,6 @@ public class fullscreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullscreen);
-        getSupportActionBar().hide();
         iv= findViewById(R.id.iamge_view);
         Intent it= getIntent();
         int position = it.getExtras().getInt("id");

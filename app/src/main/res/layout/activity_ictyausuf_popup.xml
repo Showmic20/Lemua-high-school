@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/kalpurush"
-        android:text="ছবিতে ক্লিক করুন" />
+        android:text="জনাব মোহাম্মদ আবু ইউসুফ " />
 
     <GridLayout
         android:layout_width="340dp"
@@ -113,7 +113,7 @@
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/kalpurush"
-                        android:text="( কল করতে এইখানে ক্লিক করুন)" />
+                        android:text="  (কল করতে এইখানে ক্লিক করুন)" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -195,7 +195,7 @@ android:id="@+id/yousufsmscard"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="5dp"
                         android:fontFamily="@font/kalpurush"
-                        android:text=" ( কল করতে এইখানে ক্লিক করুন)" />
+                        android:text=" (মেসেজ করতে এইখানে ক্লিক করুন)" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -267,7 +267,7 @@ android:id="@+id/yousufsmscard"
                         android:layout_marginTop="5dp"
 
                         android:fontFamily="@font/kalpurush"
-                        android:text="  (প্রোফাইল দেখতে এইখানে ক্লিক করুন)" />
+                        android:text="   (প্রোফাইল দেখতে এইখানে ক্লিক করুন)" />
 
                 </LinearLayout>
             </LinearLayout>

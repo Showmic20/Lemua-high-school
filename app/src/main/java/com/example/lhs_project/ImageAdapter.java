@@ -9,14 +9,8 @@ import android.widget.ImageView;
 
 public class ImageAdapter  extends BaseAdapter {
     private Context mComtex;
-    public int[] imagerArray={
-          R.drawable.gorups,
-            R.drawable.govtlogo,
-            R.drawable.horekrishno
-    };
-
-    public ImageAdapter(Context mComtex) {
-        this.mComtex = mComtex;
+    public int[] imagerArray={R.drawable.b90,R.drawable.b90b,R.drawable.b90c};
+    public ImageAdapter(Context mComtex) { this.mComtex = mComtex;
     }
 
     @Override
@@ -39,8 +33,7 @@ public class ImageAdapter  extends BaseAdapter {
         ImageView imageView = new ImageView(mComtex);
         imageView.setImageResource(imagerArray[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(200,200));
-
+        imageView.setLayoutParams(new GridView.LayoutParams(220,220));
         return imageView;
     }
 }

@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">About L.H.S</string>
+    <string name="app_name">Lemua High School</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="navigaton_open"></string>
     <string name="close"></string>
+    <string name="title_activity_fullscreen17">fullscreen17</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

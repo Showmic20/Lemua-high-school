@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".assistanthead">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    back with title bar <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/gray"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="agoback"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/kalpurush"
+        android:shadowColor="@color/black"
+        android:text="সহকারী প্রধান শিক্ষক"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        /></LinearLayout>back with title bar
+    <TextView
+        android:onClick="presentassishead"
+        android:id="@+id/headtv1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/assisheadmasterbutton"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="বর্তমান সহকারী প্রধান শিক্ষক"
+        android:fontFamily="@font/kalpurush"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="10dp"/>
+    <TextView
+
+        android:id="@+id/headtv2"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/assisheadmasterbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:fontFamily="@font/kalpurush"
+        android:text="প্রাক্তন সহকারী প্রধান শিক্ষক"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="@color/black"
+
+        android:padding="10dp"/>
+
+
+</LinearLayout>

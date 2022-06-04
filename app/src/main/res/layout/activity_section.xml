@@ -5,11 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#C5F3EE"
     tools:context=".Section">
-
+    back with title bar <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#66B3AC"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="goback"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/kalpurush"
+        android:shadowColor="@color/black"
+        android:text=" বিভাগসমূহ"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+         /></LinearLayout>back with title bar
     <Button
         android:id="@+id/abouts"
-
         android:layout_width="340dp"
         android:layout_height="200dp"
         android:background="@drawable/newsb"
@@ -26,7 +50,8 @@
         android:layout_width="340dp"
         android:layout_height="200dp"
         android:background="@drawable/buisnessback"
-        android:text="ব্যাবসায়"
+        android:text="ব্যাবসায় শিক্ষা"
+        android:onClick="buisness"
         android:outlineSpotShadowColor="@color/red"
         android:fontFamily="@font/kalpurush"
         android:textSize="50dp"
@@ -35,6 +60,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"/>
     <Button
+        android:onClick="humanities"
         android:layout_width="340dp"
         android:layout_height="200dp"
         android:background="@drawable/manobik"

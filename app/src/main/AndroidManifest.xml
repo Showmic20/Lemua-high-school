@@ -16,9 +16,273 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.LHS_Project">
+        <activity
+            android:name=".boysandgirls"
+            android:exported="true" />
+        <activity
+            android:name=".debateclub"
+            android:exported="true" />
+        <activity
+            android:name=".Ex_teachers"
+            android:exported="true" />
+        <activity
+            android:name=".redcresent"
+            android:exported="true" />
+        <activity
+            android:name=".scout"
+            android:exported="true" />
+        <activity
+            android:name=".organization"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen93"
+            android:exported="true" />
+        <activity
+            android:name=".gallery93"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen94"
+            android:exported="true" />
+        <activity
+            android:name=".gallery94"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen97"
+            android:exported="true" />
+        <activity
+            android:name=".gallery97"
+            android:exported="true" />
+        <activity
+            android:name=".gallery98"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen99"
+            android:exported="true" />
+        <activity
+            android:name=".gallery99"
+            android:exported="true" />
+        <activity
+            android:name=".gallery2000"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen00"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen01"
+            android:exported="true" />
+        <activity
+            android:name=".gallery01"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen02"
+            android:exported="true" />
+        <activity
+            android:name=".gallery02"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen03"
+            android:exported="true" />
+        <activity
+            android:name=".gallery03"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen04"
+            android:exported="true" />
+        <activity
+            android:name=".gallery04"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen06"
+            android:exported="true" />
+        <activity
+            android:name=".gallery06"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen07"
+            android:exported="true" />
+        <activity
+            android:name=".galley07"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen08"
+            android:exported="true" />
+        <activity
+            android:name=".gallery08"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen09"
+            android:exported="true" />
+        <activity
+            android:name=".gallery09"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen10"
+            android:exported="true" />
+        <activity
+            android:name=".gallery10"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen11"
+            android:exported="true" />
+        <activity
+            android:name=".gallery11"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen12"
+            android:exported="true" />
+        <activity
+            android:name=".gallery12"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen13"
+            android:exported="true" />
+        <activity
+            android:name=".gallery13"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen14"
+            android:exported="true" />
+        <activity
+            android:name=".gallery14"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen15"
+            android:exported="true" />
+        <activity
+            android:name=".gallery15"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen16"
+            android:exported="true" />
+        <activity
+            android:name=".gallery16"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen17"
+            android:exported="true" />
+        <activity
+            android:name=".gallery17"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen18"
+            android:exported="true" />
+        <activity
+            android:name=".gallery19"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen20"
+            android:exported="true" />
+        <activity
+            android:name=".gallery20"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen21"
+            android:exported="true" />
+        <activity
+            android:name=".gallery21"
+            android:exported="true" />
+        <activity
+            android:name=".fullscreen91"
+            android:exported="true" />
+        <activity
+            android:name=".gallery91"
+            android:exported="true" />
+        <activity
+            android:name=".tenroutine"
+            android:exported="true" />
+        <activity
+            android:name=".newtenroutine"
+            android:exported="true" />
+        <activity
+            android:name=".nineroutine"
+            android:exported="true" />
+        <activity
+            android:name=".eightroutine"
+            android:exported="true" />
+        <activity
+            android:name=".sevenroutine"
+            android:exported="true" />
+        <activity
+            android:name=".eightbooklist"
+            android:exported="true" />
+        <activity
+            android:name=".sevenbooklist"
+            android:exported="true" />
+        <activity
+            android:name=".class6booklist"
+            android:exported="true" />
+        <activity
+            android:name=".ibrahim_popup"
+            android:exported="true" />
+        <activity
+            android:name=".gias_popup"
+            android:exported="true" />
+        <activity
+            android:name=".feroz_popup"
+            android:exported="true" />
+        <activity
+            android:name=".nijam_popup"
+            android:exported="true" />
+        <activity
+            android:name=".borhan_popup"
+            android:exported="true" />
+        <activity
+            android:name=".prodip_popup"
+            android:exported="true" />
+        <activity
+            android:name=".ismail_popup"
+            android:exported="true" />
+        <activity
+            android:name=".firoza_popup"
+            android:exported="true" />
+        <activity
+            android:name=".sikha_popup"
+            android:exported="true" />
+        <activity
+            android:name=".karnurnahar_popup"
+            android:exported="true" />
+        <activity
+            android:name=".hujru_popup"
+            android:exported="true" />
+        <activity
+            android:name=".kamal_popup"
+            android:exported="true" />
+        <activity
+            android:name=".gopal_popup"
+            android:exported="true" />
+        <activity
+            android:name=".jasim_popup"
+            android:exported="true" />
+        <activity
+            android:name=".brojogopal_popup"
+            android:exported="true" />
+        <activity
+            android:name=".employe"
+            android:exported="true" />
+        <activity
+            android:name=".arunpopup"
+            android:exported="true" />
+        <activity
+            android:name=".PassisHead"
+            android:exported="true" />
+        <activity
+            android:name=".shahedalipopup"
+            android:exported="true" />
+        <activity
+            android:name=".PresentHeadmaster"
+            android:exported="true" />
+        <activity
+            android:name=".arts"
+            android:exported="true" />
+        <activity
+            android:name=".Commarce"
+            android:exported="true" />
         <activity
             android:name=".abulkashem_popup"
             android:exported="true" />

@@ -5,18 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     tools:context=".classroutinelist">
+    back with title bar <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="#FAB4B4"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="agoback"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/kalpurush"
+        android:shadowColor="@color/black"
+        android:text="শ্রেণিসমূহ"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+</LinearLayout>back with title bar
     class 6 start<TextView
 
-        android:id="@+id/headtv1"
+    android:onClick="class6"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:background="@drawable/sixcolour"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"
         android:drawableRight="@drawable/arrow"
-        android:text="৬ষ্ঠ শ্রেনী"
+        android:text="৬ষ্ঠ শ্রেণি"
         android:fontFamily="@font/kalpurush"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -25,7 +51,7 @@
         android:padding="10dp"/>class 6 end
     <TextView
 
-        android:id="@+id/headtv2"
+        android:onClick="class7"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:background="@drawable/sixcolour"
@@ -34,20 +60,20 @@
         android:drawableRight="@drawable/arrow"
         android:textStyle="bold"
         android:fontFamily="@font/kalpurush"
-        android:text="৭ম শ্রেনী"
+        android:text="৭ম শ্রেণি"
         android:textSize="20sp"
         android:gravity="left"
         android:textColor="@color/black"
         android:padding="10dp"/>class 7
    8 start <TextView
-        android:id="@+id/eight"
+    android:onClick="class8"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:background="@drawable/sixcolour"
      android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:drawableRight="@drawable/arrow"
-        android:text="৮ম শ্রেনী"
+        android:text="৮ম শ্রেণি"
         android:fontFamily="@font/kalpurush"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -55,8 +81,7 @@
         android:gravity="left"
         android:padding="10dp"/>class 8
     9 start<TextView
-android:onClick="class9"
-        android:id="@+id/nineid"
+        android:onClick="class9"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:background="@drawable/sixcolour"
@@ -65,11 +90,10 @@ android:onClick="class9"
         android:drawableRight="@drawable/arrow"
         android:textStyle="bold"
         android:fontFamily="@font/kalpurush"
-        android:text="৯ম শ্রেনী"
+        android:text="৯ম শ্রেণি"
         android:textSize="20sp"
         android:gravity="left"
         android:textColor="@color/black"
-
         android:padding="10dp"/>class 9
     new 10 start<TextView
 
@@ -82,7 +106,7 @@ android:onClick="class9"
         android:drawableRight="@drawable/arrow"
         android:textStyle="bold"
         android:fontFamily="@font/kalpurush"
-        android:text="১০ম শ্রেনী (নতুন)"
+        android:text="১০ম শ্রেণি (নতুন)"
         android:textSize="20sp"
         android:gravity="left"
         android:textColor="@color/black"
@@ -99,7 +123,7 @@ android:onClick="classtenold"
         android:drawableRight="@drawable/arrow"
         android:textStyle="bold"
         android:fontFamily="@font/kalpurush"
-        android:text="১০ম শ্রেনী"
+        android:text="১০ম শ্রেণি"
         android:textSize="20sp"
         android:gravity="left"
         android:textColor="@color/black"

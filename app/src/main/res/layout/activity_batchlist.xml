@@ -5,27 +5,1094 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".batchlist">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        back with title bar
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar1"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:background="@color/skyblue"
-                app:title="Lemua High  School"
-                app:titleMarginStart="10dp"
-                app:titleTextColor="@color/white"
-                tools:ignore="MissingConstraints" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="3dp"
+                android:onClick="agobackb"
+                android:src="@drawable/back_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_vertical"
+                android:shadowColor="@color/black"
+                android:text="ফটো সমুহ"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        back with title bar
+        class 6 start
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 6 end
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৫ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 7
+
+        9 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৬ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 9
+        new 10 start
+
+        <TextView
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+
+        class 6 start
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৬৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 6 end
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 7
+        8 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 8
+
+        new 10 start
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭২ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৩ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        class 6 start
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 6 end
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৫ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 7
+        8 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৬ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 8
+        9 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 9
+        new 10 start
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৭৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        class 6 start
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 6 end
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 7
+        8 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮২ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 8
+        9 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৩ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 9
+        new 10 start
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৫ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৬ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 7
+        8 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 8
+        9 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 9
+        new 10 start
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৮৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch1990"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        class 6 start
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch91"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 6 end
+
+        8 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯২ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 8
+        9 start
+
+        <TextView
+android:onClick="batch93"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৩ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 9
+        new 10 start
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch94"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class10 new
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৫ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৬ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch97"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch98"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch99"
+            android:padding="10dp"
+            android:text="ব্যাচ ১৯৯৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch00"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch01"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch02"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০২"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch03"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৩ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch04"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৫ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch06"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৬ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch07"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch08"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch09"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০০৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch10"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch11"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch12"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১২ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch13"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৩ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch14"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৪ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch15"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৫"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch16"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৬"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch17"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৭ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch18"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৮ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০১৯ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch20"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০২০ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/batchfoundbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:onClick="batch21"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০২১ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+        10
+
+        <TextView
+
+
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/headmasterbutton"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="ব্যাচ ২০২২ "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />class 10
+
 
     </LinearLayout>
 

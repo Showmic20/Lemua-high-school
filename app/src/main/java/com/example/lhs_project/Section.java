@@ -28,4 +28,18 @@ button.setOnClickListener(new View.OnClickListener() {
 });
 
     }
+
+    public void buisness(View view) {
+        Intent intent = new Intent(Section.this,Commarce.class);
+        startActivity(intent);
+    }
+
+    public void humanities(View view) {
+        Intent intent = new Intent(Section.this,arts.class);
+        startActivity(intent);
+    }
+
+    public void goback(View view) {
+        finish();
+    }
 }

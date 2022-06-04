@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".redcresent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:text="রেড ক্রিসেন্ট"
+            android:background="#E68261"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/black"
+            android:text=" লেমুয়া উচ্চ বিদ্যালয়ে রয়েছে রেড ক্রিসেন্ট । যেটি পরিচালনা করেন অত্র বিদ্যালয়ের সিনিয়র শিক্ষক জনাব জসিম উদ্দিন । \n
+  ৩১ মার্চ, ১৯৭৩ সালে গণপ্রজাতন্ত্রী বাংলাদেশের রাষ্ট্রপতি বঙ্গবন্ধু শেখ মুজিবুর রহমান বাংলাদেশ রেডক্রস সোসাইটি আদেশে ১৯৭৩ (পিও-২৬) জারি করেন । এই আদেশের বলে ১৬ ডিসেম্বর, ১৯৭১ সাল থেকে 'বাংলাদেশ রেডক্রস সোসাইটি' স্বীকৃতি লাভ করে । এরপর, ১৯৭৩ সালের ২০ সেপ্টেম্বর রেডক্রসের ২২তম আন্তর্জাতিক সম্মেলনে তেহরানে বাংলাদেশ রেড ক্রস সোসাইটি আন্তর্জাতিকভাবে পূর্ণ স্বীকৃতি লাভ করে । দেশ বিভাগের পরবর্তী ১৯৪৭ সালের ২০ ডিসেম্বর দুই পাকিস্তান যখন এক ছিল তখন থেকে এর কার্যক্রম এই অন্ঞলে শুরু হয়েছিল অবশ্য।
+
+১৯৮৮ সালে সংগঠনটির নাম পরিবর্তন করে 'বাংলাদেশ রেডক্রিসেন্ট সোসাইটি' রাখা হয় । সংস্থাটির প্রধান কার্যালয় ঢাকায় অবস্থিত। সংস্থাটি দেশের বিভিন্ন মানবিক বিপর্যয়ে দেশের বিভিন্ন প্রান্তে আর্তমানবতার সেবা করে থাকে। সংগঠনটির বর্তমান চেয়ারম্যান মেজর জেনারেল (অব.) এ টি এম ‍আব্দুল ওয়াহাব।\n
+রেড ক্রিসেন্ট এর কাজ কি ?\nআন্তর্জাতিক রেড ক্রস ও রেড ক্রিসেন্ট আন্দোলন বিশ্বব্যাপী প্রায় ৯৭ মিলিয়ন স্বেচ্ছাসেবী, সদস্য এবং কর্মী সহ একটি আন্তর্জাতিক মানবিক আন্দোলন যা মানুষের জীবন এবং স্বাস্থ্য রক্ষা, সব মানুষের প্রতি শ্রদ্ধা নিশ্চিত করা, এবং মানুষের দুর্ভোগ প্রতিরোধ ও লাঘব করার জন্য প্রতিষ্ঠিত হয়েছিল। \n \n
+তথ্যসূত্র - অনলাইন
+"/>
+    </LinearLayout>
+</ScrollView>
